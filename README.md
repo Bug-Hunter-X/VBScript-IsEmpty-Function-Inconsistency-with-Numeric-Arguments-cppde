@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in VBScript's IsEmpty function. The function behaves unexpectedly when checking for empty numeric arguments passed to a function.  The bug is that IsEmpty incorrectly reports numeric arguments as not empty even when they're missing.  The solution illustrates a workaround using a more robust check.
